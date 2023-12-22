@@ -4,7 +4,7 @@ const { parse } = require('url');
 const micro = require('micro');
 const { Telegraf } = require('telegraf');
 
-const bot = new Telegraf('YOUR_BOT_TOKEN');
+const bot = new Telegraf('6487623750:AAHMzeRNPcbEvxmrE19KjrrrNMNEc_pFqqA');
 
 bot.command('start', (ctx) => {
   ctx.reply('Hello! I am your Vercel Bot.');
